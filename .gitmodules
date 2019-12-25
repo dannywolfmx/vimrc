@@ -7,3 +7,9 @@
 [submodule ".vim/pack/deoplete/start/deoplete.nvim"]
 	path = .vim/pack/deoplete/start/deoplete.nvim
 	url = https://github.com/Shougo/deoplete.nvim
+[submodule ".vim/pack/nvim/opt/nvim-yarp"]
+	path = .vim/pack/nvim/opt/nvim-yarp
+	url = https://github.com/roxma/nvim-yarp
+[submodule ".vim/pack/nvim/opt/vim-hug-neovim-rpc"]
+	path = .vim/pack/nvim/opt/vim-hug-neovim-rpc
+	url = https://github.com/roxma/vim-hug-neovim-rpc
