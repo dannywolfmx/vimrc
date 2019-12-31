@@ -13,3 +13,6 @@
 [submodule ".vim/pack/nvim/opt/vim-hug-neovim-rpc"]
 	path = .vim/pack/nvim/opt/vim-hug-neovim-rpc
 	url = https://github.com/roxma/vim-hug-neovim-rpc
+[submodule ".vim/pack/daniel/start/ale"]
+	path = .vim/pack/daniel/start/ale
+	url = https://github.com/dense-analysis/ale
