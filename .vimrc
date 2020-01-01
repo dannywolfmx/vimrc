@@ -35,6 +35,14 @@ set number              "show line numbers
 set relativenumber      "show number as relative by default
 set showmatch           "higlight matching parentheses and brackets
 
+"Autoclose, to skip this function use <C-v> to not use this funcions
 
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap { {}<left>
+inoremap [ []<left>
+inoremap {<CR> {<CR>}<ESC>O<TAB>
+inoremap {;<CR> {<CR>};<ESC>O<TAB>
 
 
