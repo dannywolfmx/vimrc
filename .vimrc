@@ -45,4 +45,4 @@ inoremap [ []<left>
 inoremap {<CR> {<CR>}<ESC>O<TAB>
 inoremap {;<CR> {<CR>};<ESC>O<TAB>
 
-
+filetype plugin on
