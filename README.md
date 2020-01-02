@@ -39,3 +39,13 @@ git rm .vim/pack/theme/start/vim-airline
 rm -Rf .git/modules/vim/pack/theme/start/vim-airline
 git commit
 ```
+
+## Instalacion de paquetes especiales.
+Deoplete require de python3 y asi tambien de pynvin
+
+(Ubuntu)
+
+```bash
+sudo apt install python3-pip
+pip3 install --user pynvin
+```
