@@ -3,7 +3,7 @@
 
 set splitright
 
-autocmd FileType go nmap <leader>r :w<CR>:term go run %<CR>
+autocmd FileType go nmap <leader>r :w<CR>:vert term go run %<CR>
 
 
 
