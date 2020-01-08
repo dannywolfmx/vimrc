@@ -41,7 +41,9 @@ inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap { {}<left>
-inoremap [ []<left>
+"Sirve para autocompletar un corchete pero por inercia lo estoy haciendo yo
+"mismo, asi que no tiene sentido usarlo para mi
+"inoremap [ []<left>
 inoremap {<CR> {<CR>}<ESC>O<TAB>
 inoremap {;<CR> {<CR>};<ESC>O<TAB>
 
