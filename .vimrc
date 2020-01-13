@@ -42,9 +42,11 @@ inoremap ' ''<left>
 inoremap { {}<left>
 "Sirve para autocompletar un corchete pero por inercia lo estoy haciendo yo
 "mismo, asi que no tiene sentido usarlo para mi
-"inoremap ( ()<left>
+inoremap ( ()<left>
 inoremap [ []<left>
 inoremap {<CR> {<CR>}<ESC>O<TAB>
 inoremap {;<CR> {<CR>};<ESC>O<TAB>
 
 filetype plugin on
+"Crear tags HTML re: https://coderwall.com/p/1omscg/vim-easy-insert-html-tags
+imap <C-t> <></><Esc>5hdiwp3lpT>i
