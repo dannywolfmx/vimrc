@@ -1,10 +1,11 @@
 let g:deoplete#enable_at_startup = 1
 
 
-call deoplete#custom#option({
+call deoplete#custom#option('omni_patterns',{
     \ 'auto_complete_delay': 200,
     \ 'smart_case': v:true,
     \ 'ignore_case': v:true,
+    \ 'go': '[^. *\t]\.\w*', 
     \ })
 
 "Use Tab to autocomple
