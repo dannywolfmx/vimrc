@@ -1,3 +1,3 @@
-let g:ale_linters = {
-\'go': ['gopls'],
-\}
+""let g:ale_linters = {
+""\'go': ['gopls'],
+""\}

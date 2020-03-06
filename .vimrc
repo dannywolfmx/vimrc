@@ -52,3 +52,11 @@ inoremap {;<CR> {<CR>};<ESC>O<TAB>
 filetype plugin on
 "Crear tags HTML re: https://coderwall.com/p/1omscg/vim-easy-insert-html-tags
 imap <C-t> <></><Esc>5hdiwp3lpT>i
+
+
+"Permite cerrar automaticamente la ventana "preview" tras completar una
+"autocompletacion
+augroup completion_preview_close
+  autocmd!
+  autocmd CompleteDone * if !&previewwindow && &completeopt =~ 'preview' | silent! pclose | endif
+augroup END
