@@ -49,3 +49,9 @@ Deoplete require de python3 y asi tambien de pynvin
 sudo apt install python3-pip
 pip3 install --user pynvin
 ```
+
+Fzf es un sistema de busqueda independiente de vim, por lo que para usarlo debemos instalarlo por nuestra cuenta.
+Este funcionara con el pluggin de fzf.vim
+```bash
+sudo apt install fzf	
+```

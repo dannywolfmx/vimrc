@@ -22,9 +22,9 @@ if &t_Co > 2
     highlight DiffAdd ctermfg=green cterm=bold
     highlight DiffDelete ctermfg=red cterm=bold
     highlight DiffChange ctermfg=yellow
-
+	
     set colorcolumn=80
-
+    highlight ColorColumn ctermbg=0 guibg=lightgrey
 endif
 
 
@@ -60,3 +60,4 @@ augroup completion_preview_close
   autocmd!
   autocmd CompleteDone * if !&previewwindow && &completeopt =~ 'preview' | silent! pclose | endif
 augroup END
+set rtp+=~/.fzf
