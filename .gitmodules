@@ -19,3 +19,6 @@
 [submodule ".vim/pack/vinegar/start/vim-vinegar"]
 	path = .vim/pack/vinegar/start/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar
+[submodule ".vim/pack/fzf/start/fzf.vim"]
+	path = .vim/pack/fzf/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
