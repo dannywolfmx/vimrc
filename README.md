@@ -24,7 +24,7 @@ git add .gitmodules vim/pack/theme/start/vim-airline
 git commit
 ```
 
-### Actualizar los modolos
+### Actualizar los modulos
 
 ```bash
 git submodule update --remote --merge
