@@ -16,3 +16,6 @@
 [submodule ".vim/pack/daniel/start/ale"]
 	path = .vim/pack/daniel/start/ale
 	url = https://github.com/dense-analysis/ale
+[submodule ".vim/pack/vinegar/start/vim-vinegar"]
+	path = .vim/pack/vinegar/start/vim-vinegar
+	url = https://github.com/tpope/vim-vinegar
