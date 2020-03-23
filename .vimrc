@@ -61,3 +61,7 @@ augroup completion_preview_close
   autocmd CompleteDone * if !&previewwindow && &completeopt =~ 'preview' | silent! pclose | endif
 augroup END
 set rtp+=~/.fzf
+
+
+"Comando para invocar a FZF usando CTRL + p
+nnoremap <C-p> :<C-u>FZF<CR>
