@@ -22,3 +22,9 @@
 [submodule ".vim/pack/fzf/start/fzf.vim"]
 	path = .vim/pack/fzf/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
+[submodule ".vim/pack/javascript/start/vim-html-template-literals"]
+	path = .vim/pack/javascript/start/vim-html-template-literals
+	url = https://github.com/jonsmithers/vim-html-template-literals
+[submodule ".vim/pack/javascript/start/vim-javascript"]
+	path = .vim/pack/javascript/start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
