@@ -5,6 +5,7 @@ Esto es la configuracion actual que uso para trabajar en mi Vim.
 ## ¿Para que lenguajes de programacion esta preparado (o al menos lo intenta)
 
 * Go
+* Javascript (requiere prettier)
 
 ## Uso el sistema nativo de carga de paquetes de VIM.
 
