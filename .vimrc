@@ -65,3 +65,4 @@ set rtp+=~/.fzf
 
 "Comando para invocar a FZF usando CTRL + p
 nnoremap <C-p> :<C-u>FZF<CR>
+
