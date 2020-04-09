@@ -28,3 +28,6 @@
 [submodule ".vim/pack/javascript/start/vim-javascript"]
 	path = .vim/pack/javascript/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript
+[submodule ".vim/pack/html/start/emmet-vim"]
+	path = .vim/pack/html/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim

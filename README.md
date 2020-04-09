@@ -6,6 +6,7 @@ Esto es la configuracion actual que uso para trabajar en mi Vim.
 
 * Go
 * Javascript (requiere prettier)
+* HTML
 
 ## Uso el sistema nativo de carga de paquetes de VIM.
 
@@ -15,12 +16,14 @@ Esto es la configuracion actual que uso para trabajar en mi Vim.
 
 Este primer comando solo es util si no hemos creado un init antes
 
+Nota: {PROPOSITO DE CARPETA} significa para que lenguaje o tecnologia sirve el pluggin
+
 ```bash
 git submodule init
 
-git submodule add http://github.com/vim-airline/vim-airline .vim/pack/theme/start/vim-airline
+git submodule add http://github.com/vim-airline/vim-airline .vim/pack/{PROPOSITO DE CARPETA}/start/vim-airline
 
-git add .gitmodules vim/pack/theme/start/vim-airline
+git add .gitmodules .vim/pack/theme/start/vim-airline
 
 git commit
 ```
