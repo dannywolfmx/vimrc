@@ -60,7 +60,9 @@ augroup completion_preview_close
   autocmd!
   autocmd CompleteDone * if !&previewwindow && &completeopt =~ 'preview' | silent! pclose | endif
 augroup END
+
 set rtp+=/usr/bin/fzf
+source /usr/share/doc/fzf/examples/fzf.vim
 
 
 "Comando para invocar a FZF usando CTRL + p
