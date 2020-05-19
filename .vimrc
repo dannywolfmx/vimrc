@@ -10,22 +10,26 @@ set undodir=~/.vim/undodir
 set autoindent    "autoindent ON
 
 "Color configuration.
-if &t_Co > 2
-    syntax on
-    silent! colorscheme dim
-    set background=dark
+""if &t_Co > 2
+""    syntax on
+""    silent! colorscheme dim
+""    set background=dark
+""
+""    highlight Folded cterm=reverse ctermbg=0 ctermfg=8
+""    highlight VertSplit cterm=NONE ctermbg=NONE ctermfg=8
+""    highlight Conceal cterm=NONE ctermbg=NONE ctermfg=8
+""
+""    highlight DiffAdd ctermfg=green cterm=bold
+""    highlight DiffDelete ctermfg=red cterm=bold
+""    highlight DiffChange ctermfg=yellow
+""	
+""    set colorcolumn=80
+""    highlight ColorColumn ctermbg=0 guibg=lightgrey
+""endif
 
-    highlight Folded cterm=reverse ctermbg=0 ctermfg=8
-    highlight VertSplit cterm=NONE ctermbg=NONE ctermfg=8
-    highlight Conceal cterm=NONE ctermbg=NONE ctermfg=8
-
-    highlight DiffAdd ctermfg=green cterm=bold
-    highlight DiffDelete ctermfg=red cterm=bold
-    highlight DiffChange ctermfg=yellow
-	
-    set colorcolumn=80
-    highlight ColorColumn ctermbg=0 guibg=lightgrey
-endif
+set termguicolors
+let ayucolor="mirage"
+colorscheme ayu
 
 
 set laststatus=1        "always show statusbar
