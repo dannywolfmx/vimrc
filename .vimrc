@@ -67,4 +67,4 @@ source /usr/share/doc/fzf/examples/fzf.vim
 
 "Comando para invocar a FZF usando CTRL + p
 nnoremap <C-p> :<C-u>FZF<CR>
-
+set list lcs=tab:\|\ 
