@@ -1,3 +1,4 @@
+"
 "Inspirado en un principio por el vimrc de danirob/vimrc
 
 set nocompatible  " disable vi commpatibility mode
@@ -72,3 +73,9 @@ source /usr/share/doc/fzf/examples/fzf.vim
 "Comando para invocar a FZF usando CTRL + p
 nnoremap <C-p> :<C-u>FZF<CR>
 set list lcs=tab:\|\ 
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_statusline_ontop=1
+set noshowmode
+set noruler
+set laststatus=0
+set noshowcmd
