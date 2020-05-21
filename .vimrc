@@ -33,7 +33,7 @@ let ayucolor="mirage"
 colorscheme ayu
 
 
-set laststatus=1        "always show statusbar
+set laststatus=0        "always show statusbar
 set wildmenu            "enable visual wildmenu
 
 set number              "show line numbers
@@ -77,5 +77,16 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_statusline_ontop=1
 set noshowmode
 set noruler
-set laststatus=0
 set noshowcmd
+
+
+"Netrw like nerdtree
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
+let g:netrw_altv = 1
+let g:netrw_winsize = 18
+augroup ProjectDrawer
+  autocmd!
+  autocmd VimEnter * :Vexplore
+augroup END
